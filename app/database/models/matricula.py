@@ -1,4 +1,4 @@
-from database.connection import Base
+from app.database.connection import Base
 from sqlalchemy import Column, Integer, ForeignKey
 
 class Curso(Base):
